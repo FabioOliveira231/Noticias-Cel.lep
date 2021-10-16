@@ -14,6 +14,12 @@
             <li>
                 <a id="menuAdmin" class="nav-link tex-white" href="/admin">Admin</a>
             </li>
+            <li>
+                <% if(typeof(autorizado)!=='undefined'){ %>
+                    <a class="nav-link text-white" href="/admin/sair">Sair</a>
+
+               <% } %>
+            </li>
          </ul>
          
      </div>
